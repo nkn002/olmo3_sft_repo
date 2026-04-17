@@ -1,0 +1,11 @@
+export BASE_PATH=/home/jovyan/gpus-4-nodes-volume/vy/
+export ROOT=$BASE_PATH/olmo3_sft_repo
+export OLMO_CORE=$ROOT/src/OLMo-core
+export OPEN_INSTRUCT=$ROOT/src/open-instruct
+export HF_BASE=$ROOT/artifacts/Olmo-3-1025-7B-hf
+export BASE_CORE=$ROOT/artifacts/olmo3-base-core
+export OI_CACHE=$ROOT/cache/open_instruct
+export SFT_DATA=$ROOT/artifacts/dolci-instruct-sft-olmocore
+export SFT_DEBIASED_DATA=$BASE_PATH/data_editing/results/data_formated
+export OLMO_SFT_ROOT_DIR=$ROOT/outputs
+export WANDB_API_KEY=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
