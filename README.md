@@ -22,8 +22,8 @@ conda activate olmo3
 
 python -m pip install --upgrade pip setuptools wheel packaging ninja
 
-pip install --index-url https://download.pytorch.org/whl/cu128   torch==2.9.0 
-torchvision torchaudio
+pip install --index-url https://download.pytorch.org/whl/cu128   torch==2.9.0 torchvision torchaudio
+
 cd "$OLMO_CORE"
 
 pip install -e .[all]
